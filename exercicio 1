@@ -1,0 +1,62 @@
+aluno1 = str(input(" 1° aluno, digite seu nome:"))
+nota1 =  float(input("agora digite sua nota:"))
+
+aluno2 = str(input(" 2° aluno, digite seu nome:"))
+nota2 = float(input("agora digite sua nota:"))
+
+aluno3 = str(input(" 3° aluno, digite seu nome:"))
+nota3 = float(input("agora digite sua nota:"))
+
+aluno4 = str(input(" 4° aluno, digite seu nome:"))
+nota4 = float(input("agora digite sua nota:"))
+
+aluno5 = str(input(" 5° aluno, digite seu nome:"))
+nota5 = float(input("agora digite sua nota:"))
+
+alunos = (aluno5, aluno4, aluno3, aluno2, aluno1)
+notas = (nota5, nota4, nota3, nota2, nota1)
+
+if nota5 == (4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9,
+             5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9):
+    print(aluno5, "em recuperação com a nota: " , nota5)
+elif nota5 >= 7:
+    print(aluno5, "aprovado com a nota", nota5)
+else:
+    nota5 >= 3.9
+    print(aluno5, "reprovado com a nota: ", nota5)
+
+if nota1 == (4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9,
+             5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9):
+    print(aluno1, "em recuperação com a nota: " , nota1)
+elif nota1 >= 7:
+    print(aluno1, "aprovado com a nota", nota1)
+else:
+    nota1 >= 3.9
+    print(aluno1, "reprovado com a nota: ", nota1)
+
+if nota2 == (4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9,
+             5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9):
+    print(aluno2, "em recuperação com a nota: ", nota2)
+elif nota2 >= 7:
+    print(aluno2, "aprovado com a nota", nota2)
+else:
+    nota2 >= 3.9
+    print(aluno2, "reprovado com a nota: ", nota2)
+
+if nota3 == (4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9,
+             5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9):
+    print(aluno3, "em recuperação com a nota: " , nota3)
+elif nota3 >= 7:
+    print(aluno3, "aprovado com a nota", nota3)
+else:
+    nota3 >= 3.9
+    print(aluno3, "reprovado com a nota: ", nota3)
+
+if nota4 == (4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9,
+             5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 6.0, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9):
+    print(aluno4, "em recuperação com a nota: " , nota4)
+elif nota4 >= 7:
+    print(aluno4, "aprovado com a nota", nota4)
+else:
+    nota4 >= 3.9
+    print(aluno4, "reprovado com a nota: ", nota4)
