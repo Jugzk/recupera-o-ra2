@@ -1,0 +1,22 @@
+parar = int(input("digite 4 se quer parar e 5 se deseja continuar:"))
+if parar == 4:
+    print("vamos parar então")
+    exit()
+elif parar == 5:
+        forma = int(input("digite 1 para círculo \n"
+                          "digite 2 para quadrado \n"
+                          "digite 3 para retangulo"))
+        if forma == 1:
+            raio = float(input("digite o raio do seu circulo para calcular a área: "))
+            circulo = (3.14 * (raio * raio))
+            print("sua área é:", circulo)
+        elif forma == 2:
+            lado = float(input("digite quantos cm tem o lado do seu quadrado"))
+            quadrado = (lado * lado)
+            print(quadrado)
+        elif forma == 3:
+            base = float(input("digite a base do seu retangulo: "))
+            altura = float(input("digite a base do seu retangulo: "))
+            retangulo = (base * altura)
+            print("essa é a area do seu retangulo:", retangulo)
+parar = int(input("digite 4 se quer parar e 5 se deseja continuar:"))
